@@ -1,0 +1,13 @@
+.animateLogos {
+    animation: slideLogo 5s infinite linear;
+  }
+@keyframes slideLogo {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

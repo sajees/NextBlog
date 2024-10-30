@@ -10,6 +10,17 @@ export type BlogItem = {
         url: string;
     }
 }
+
+export type Sponsor = {
+    fields: {
+        title: string;
+        slug: string;
+        date: Date;
+        content: Document;
+        url: string;
+    }
+}
+
 export type BlogItems = ReadonlyArray<BlogItem>;
 
 export type BlogQueryResult = {
